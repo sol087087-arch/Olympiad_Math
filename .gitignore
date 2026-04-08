@@ -1,0 +1,37 @@
+# Large data files — store separately (HuggingFace / Drive)
+*.jsonl
+*.parquet
+*.zip
+*.gz
+*.tar
+*.checkpoint
+
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+lora_output/
+models/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Secrets / keys
+.env
+*_key.txt
+batch_id.txt
+secrets.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
